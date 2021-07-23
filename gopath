@@ -1,0 +1,30 @@
+export PATH=$PATH:/home/maryam/go/bin
+
+go env -w GOBIN=/home/maryam/go/bin
+
+
+export PATH=$PATH:/usr/local/go/bin
+
+go env -w GOBIN=/usr/local/go/bin
+
+
+
+go mod init example.com/site2
+
+go mod tidy
+
+go build
+
+go run
+
+protoc path: export PATH="$PATH:$HOME/.local/bin"
+
+
+install protoc-go-gen
+
+sudo env PATH=$PATH:/usr/local/go/bin go get -u github.com/golang/protobuf/protoc-gen-go
+
+
+
+
+
